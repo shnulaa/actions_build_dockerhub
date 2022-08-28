@@ -1,4 +1,4 @@
-name: BuildDockerfileImage
+name: BuildDockerfileImageToAli
 
 on:
   # 防止 Fork 乱用 action 设置只能手动触发构建
