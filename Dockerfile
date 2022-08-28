@@ -1,8 +1,8 @@
 # 基础镜像 jdk1.8
-FROM java:8
+FROM openjdk:8-jdk-alpine
 
 # 作者
-MAINTAINER sudojia
+MAINTAINER shnulaa
 
 # 把可执行 jar 包复制到基础镜像的根目录下
 ADD actions_build_springboot_docker-1.0-RELEASE.jar /actions_build_springboot_docker.jar
